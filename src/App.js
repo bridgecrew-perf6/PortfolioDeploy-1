@@ -21,7 +21,7 @@ function App() {
             <p>Software Engineer at Sopra Steria</p>
           </div>
           <div class="devEdu">
-            <h1>Education</h1><br/>
+            <h1>Education</h1>
               <ul>
                 <li>Bachelor of Computer Aplication 2020</li>
                 <li>Intermediate(Math) 2016</li>
@@ -29,7 +29,7 @@ function App() {
               </ul>
           </div>
           <div class="devAchiev">
-            <h1>Achievement</h1><br/>
+            <h1>Achievement</h1>
               <ul>
                 <li>HackerRank 4 star</li>
                 <li>Codechef</li>
@@ -37,7 +37,7 @@ function App() {
               </ul>
           </div>
           <div class="devSkill">
-            <h1>Skill</h1><br/>
+            <h1>Skill</h1>
               <div class="skill-card">
                 <div class="card">
                   <p>Python</p>
@@ -57,7 +57,7 @@ function App() {
               </div>
           </div>
           <div class="devProject">
-            <h1>Project</h1><br/>
+            <h1>Project</h1>
               <div class="project-card">
                 <div class="card">
                   <p>System Management System Desktop Aplication</p>
@@ -78,7 +78,7 @@ function App() {
               </div>
           </div>
           <div class="devHobbies">
-            <h1>Hobbies</h1><br/>
+            <h1>Hobbies</h1>
               <div class="hobbies-card">
                 <div class="card">
                   <p>E-Sport</p>
@@ -91,7 +91,7 @@ function App() {
                 </div>
                 <div class="card">
                   <p>Travelling</p>
-                </div>
+                </div><br/>
               </div>
           </div>
         </div>
