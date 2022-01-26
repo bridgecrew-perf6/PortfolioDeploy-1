@@ -15,43 +15,45 @@
 /* Developer pic section */
 
 .devPic{
-  flex: 20%;
-  /* width:450px; */
-  /* height: auto; */
+  flex: 26%;
   background-color: rgb(168, 165, 165);
-  /* margin: 0; */
+  /* display: block; */
+  /* width: 20vw; */
+  /* height: auto; */
+  
+  /* flex: 20%;
+  display: block;
+  width:20vw;
+  height:auto;
+  background-color: rgb(168, 165, 165);
+  margin: 0; */
 }
 .devPic img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  /* margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%; */
-  /* justify-content: center; */
+  width: 15vw;
+  height: 15vw;
+  /* justify-content: space-around; */
   display: block;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
+  
 }
 .devPic button{
   display: block;
-  margin-top: 30%;
+  margin-top: 17%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 6px;
+  border-radius: 37px;
   font-size: 13px;
   padding: 10px;
-  /* 
-  margin-top: 40%;
-  margin-left: 35%; */
   background-color: rgb(36, 222, 246);
 }
 .devPic a{
-  margin-top: 50%;
-  margin-left: 10%;
+      /* margin-top: 50%; */
+  /* margin-left: 10%; */
   color: black;
+  text-decoration: none;
 }
 .devPic p{
   margin-top: auto;
@@ -63,11 +65,11 @@
 /* Developer Info Css */
 
 .info-container{
-  flex: 80%;
+  flex: 76%;
   /* margin-left: 5%; */
-  /* width: 100vmax;
-  height:100vmax; */
-  /* background-color: rgb(229, 245, 11); */
+  /* width: 80vw; */
+  /* width: auto; */
+  background-color: rgb(229, 245, 11);
 }
 
 .devName{
@@ -75,25 +77,32 @@
 }
 
 .devName h1{
-  font-size: 50px;
+  font-size: 3vw;
   justify-content: center;
 }
 .devName p{
-  font-size: 30px;
+  font-size: 2vw;
 }
+/* 
+@media(max-width:600px){
+  .devEdu{
+      h1
+  }
+} */
+
 .devEdu{
   margin-top: 2%;
   margin-left: 5%;
 }
 .devEdu h1{
-  font-size: 40px;
+  font-size: 3vw;
 }
 .devEdu ul{
   list-style: none;
 }
 .devEdu li{
   padding-top: 5px;
-  font-size: 30px;
+  font-size: 2vw;
 }
 
 .devAchiev{
@@ -101,7 +110,7 @@
   margin-left: 5%;
 }
 .devAchiev h1{
-  font-size: 40px;
+  font-size: 3vw;
 }
 
 .devAchiev ul{
@@ -109,11 +118,14 @@
 }
 .devAchiev li{
   padding-top: 5px;
-  font-size: 30px;
+  font-size: 2vw;
 }
 .devSkill{
   margin-top: 2%;
   margin-left: 5%;
+}
+.devSkill h1{
+  font-size: 3vw;
 }
 .skill-card{
   display: flex;
@@ -121,17 +133,20 @@
   /* justify-content: space-between; */
 }
 .card{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   width: fit-content;
   padding: 5px;
 }
 .card p{
-  font-size: 30px;
+  font-size: 2vw;
 }
 
 .devProject{
   margin-top: 2%;
   margin-left: 5%;
+}
+.devProject h1{
+  font-size: 3vw;
 }
 .project-card{
   display: flex;
@@ -143,13 +158,17 @@
   margin-top: 2%;
   margin-left: 5%;
 }
+.devHobbies h1{
+  font-size: 3vw;
+}
 .hobbies-card{
   display: flex;
   flex-wrap: wrap;
 }
 
 .footer{
-  font-size: 20px;
+  margin-bottom: 0;
+  font-size: 1.5vw;
   background-color: rgb(36, 222, 246);
 }
 @media(min-width:600px){
@@ -157,3 +176,8 @@
       flex-direction: row;
   }
 }
+/* @media(max-width:600px){
+  .devPic{
+      width:100vw;
+  }
+} */
